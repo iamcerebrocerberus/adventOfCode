@@ -13,7 +13,8 @@ def find_new_location(x_coordinate: int, y_coordinate: int, direction: str) -> T
 
 
 # x and y cordinates for santa and robo santa
-santa_x = santa_y = robosanta_x = robosanta_y = 0
+santa_x ,santa_y = 0, 0
+robosanta_x ,robosanta_y = 0, 0
 
 # both santa and robosanta start at same point
 houses = {(0, 0)}
